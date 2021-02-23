@@ -21,7 +21,7 @@ requests==2.25.1
 rfc3986==1.4.0
 setuptools==53.0.0
 sniffio==1.2.0
-soupsieve==2.2	2.2
+soupsieve==2.2
 typing-extensions==3.7.4.3
 urllib3==1.26.3
 wikipedia==1.4.0
