@@ -1,2 +1,2 @@
-web: gunicorn discobot --timeout 15 --keep-alive 5 --log-level debug
+web: gunicorn discobot:app --timeout 150000000000000000
 heroku ps:scale web=3
