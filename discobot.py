@@ -8,7 +8,7 @@ TOKEN = 'ODA4NjMwMTc0MDczMjI1MzE4.YCJViQ.OMKdC4Kr1bHnL4g28DVh3RGqx6U'
 
 class QuakeReq():
     def __init__(self, name):
-        qc_req = requests.get(f'https://stats.quake.com/api/v2/Player/Stats?name={name}')
+        qc_req = requests.get(f'https://quake-stats.bethesda.net/api/v2/Player/Stats?name={name}')
         if qc_req.status_code == 500:
             self.status_code = 500
         else:
