@@ -1,2 +1,3 @@
-web: gunicorn discobot:app --timeout 150000000000000000
+web: gunicorn
 heroku ps:scale web=1
+worker: python -u discobot.py
