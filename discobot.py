@@ -4,7 +4,7 @@ from googletrans import Translator
 import asyncio
 import wikipedia
 
-TOKEN = 'ODA4NjMwMTc0MDczMjI1MzE4.YCJViQ.OMKdC4Kr1bHnL4g28DVh3RGqx6U'
+TOKEN = 'Unknown for now'
 
 class QuakeReq():
     def __init__(self, name):
